@@ -70,71 +70,71 @@
                 <tbody >
                 <tr class="cell">
                     <td >1</td>
-                    <td ><img src="{{ asset('storage/airport.png') }}" alt="airport" ><td>
+                    <td ><img src="{{ asset('airport.png') }}" alt="airport" ><td>
                     <td >2</td>
-                    <td ><img src="{{ asset('storage/beach.png') }}" alt="beach" ><td>
+                    <td ><img src="{{ asset('beach.png') }}" alt="beach" ><td>
                     <td >3</td>
-                    <td ><img src="{{ asset('storage/bighouse.png') }}" alt="bighouse" ><td>
+                    <td ><img src="{{ asset('bighouse.png') }}" alt="bighouse" ><td>
                     <td >4</td>
-                    <td ><img src="{{ asset('storage/car.png') }}" alt="car" ><td>
+                    <td ><img src="{{ asset('car.png') }}" alt="car" ><td>
                     <td >5</td>
-                    <td ><img src="{{ asset('storage/classroom.png') }}" alt="classroom" ><td>
+                    <td ><img src="{{ asset('classroom.png') }}" alt="classroom" ><td>
                     <td >6</td>
-                    <td ><img src="{{ asset('storage/convine.png') }}" alt="convine" ><td>
+                    <td ><img src="{{ asset('convine.png') }}" alt="convine" ><td>
                     <td >7</td>
-                    <td ><img src="{{ asset('storage/dental.png') }}" alt="dental" ><td>
+                    <td ><img src="{{ asset('dental.png') }}" alt="dental" ><td>
                     <td >8</td>
-                    <td ><img src="{{ asset('storage/dentist.png') }}" alt="dentist" ><td>
+                    <td ><img src="{{ asset('dentist.png') }}" alt="dentist" ><td>
                     <td >9</td>
-                    <td ><img src="{{ asset('storage/doctor.png') }}" alt="doctor" ><td>
+                    <td ><img src="{{ asset('doctor.png') }}" alt="doctor" ><td>
                     <td >10</td>
-                    <td ><img src="{{ asset('storage/eat.png') }}" alt="eat" ><td>
+                    <td ><img src="{{ asset('eat.png') }}" alt="eat" ><td>
                     <td >11</td>
-                    <td ><img src="{{ asset('storage/game.png') }}" alt="gmae" ><td>
+                    <td ><img src="{{ asset('game.png') }}" alt="gmae" ><td>
                     <td >12</td>
-                    <td ><img src="{{ asset('storage/garagara.png') }}" alt="garagara" ><td>
+                    <td ><img src="{{ asset('garagara.png') }}" alt="garagara" ><td>
                     <td >13</td>
-                    <td ><img src="{{ asset('storage/grandp.png') }}" alt="granp" ><td>
+                    <td ><img src="{{ asset('grandp.png') }}" alt="granp" ><td>
                     <td >14</td>
-                    <td ><img src="{{ asset('storage/ground.png') }}" alt="ground" ><td>
+                    <td ><img src="{{ asset('ground.png') }}" alt="ground" ><td>
                     <td >15</td>
-                    <td ><img src="{{ asset('storage/hospital.png') }}" alt="hospital" ><td>
+                    <td ><img src="{{ asset('hospital.png') }}" alt="hospital" ><td>
                     <td >16</td>
-                    <td ><img src="{{ asset('storage/hotel.png') }}" alt="hotel" ><td>
+                    <td ><img src="{{ asset('hotel.png') }}" alt="hotel" ><td>
                     <td >17</td>
-                    <td ><img src="{{ asset('storage/house.png') }}" alt="house" ><td>
+                    <td ><img src="{{ asset('house.png') }}" alt="house" ><td>
                     <td >18</td>
-                    <td ><img src="{{ asset('storage/kinder.png') }}" alt="kinder" ><td>
+                    <td ><img src="{{ asset('kinder.png') }}" alt="kinder" ><td>
                     <td >19</td>
-                    <td ><img src="{{ asset('storage/lunch.png') }}" alt="lunch" ><td>
+                    <td ><img src="{{ asset('lunch.png') }}" alt="lunch" ><td>
                     <td >20</td>
-                    <td ><img src="{{ asset('storage/mountain.png') }}" alt="mountain" ><td>
+                    <td ><img src="{{ asset('mountain.png') }}" alt="mountain" ><td>
                     <td >21</td>
-                    <td ><img src="{{ asset('storage/nurse.png') }}" alt="nurse" ><td>
+                    <td ><img src="{{ asset('nurse.png') }}" alt="nurse" ><td>
                     <td >22</td>
-                    <td ><img src="{{ asset('storage/park.png') }}" alt="park" ><td>
+                    <td ><img src="{{ asset('park.png') }}" alt="park" ><td>
                     <td >23</td>
-                    <td ><img src="{{ asset('storage/phroom.png') }}" alt="phroom" ><td>
+                    <td ><img src="{{ asset('phroom.png') }}" alt="phroom" ><td>
                     <td >24</td>
-                    <td ><img src="{{ asset('storage/plane.png') }}" alt="plane" ><td>
+                    <td ><img src="{{ asset('plane.png') }}" alt="plane" ><td>
                     <td >25</td>
-                    <td ><img src="{{ asset('storage/post.png') }}" alt="post" ><td>
+                    <td ><img src="{{ asset('post.png') }}" alt="post" ><td>
                     <td >26</td>
-                    <td ><img src="{{ asset('storage/quiet.png') }}" alt="quiet" ><td>
+                    <td ><img src="{{ asset('quiet.png') }}" alt="quiet" ><td>
                     <td >27</td>
-                    <td ><img src="{{ asset('storage/school.png') }}" alt="school" ><td>
+                    <td ><img src="{{ asset('school.png') }}" alt="school" ><td>
                     <td >28</td>
-                    <td ><img src="{{ asset('storage/shoesbox.png') }}" alt="shoesbox" ><td>
+                    <td ><img src="{{ asset('shoesbox.png') }}" alt="shoesbox" ><td>
                     <td >29</td>
-                    <td ><img src="{{ asset('storage/super.png') }}" alt="super" ><td>
+                    <td ><img src="{{ asset('super.png') }}" alt="super" ><td>
                     <td >30</td>
-                    <td ><img src="{{ asset('storage/teeth.png') }}" alt="teeth" ><td>
+                    <td ><img src="{{ asset('teeth.png') }}" alt="teeth" ><td>
                     <td >31</td>
-                    <td ><img src="{{ asset('storage/toilet.png') }}" alt="toilet" ><td>
+                    <td ><img src="{{ asset('toilet.png') }}" alt="toilet" ><td>
                     <td >32</td>
-                    <td ><img src="{{ asset('storage/train.png') }}" alt="train" ><td>
+                    <td ><img src="{{ asset('train.png') }}" alt="train" ><td>
                     <td >33</td>
-                    <td ><img src="{{ asset('storage/wash.png') }}" alt="wash" ><td>
+                    <td ><img src="{{ asset('wash.png') }}" alt="wash" ><td>
                 </tr>
                 </tbody>
             </table>
