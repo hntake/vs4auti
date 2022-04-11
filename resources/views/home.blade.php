@@ -26,15 +26,15 @@
                     <div class="card-header">
                     <tr>
                             <td>{{ $schedule->schedule_name }}</td><br>
-                            <td><img src="{{asset('storage/'.$schedule->imageOne->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
+                            <td><img src="{{asset(''.$schedule->imageOne->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
                             <td><div class="arrow"></div></td>
-                            <td><img src="{{asset('storage/'.$schedule->imageTwo->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
+                            <td><img src="{{asset(''.$schedule->imageTwo->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
                             <td><div class="arrow"></div></td>
-                            <td><img src="{{asset('storage/'.$schedule->imageThree->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
+                            <td><img src="{{asset(''.$schedule->imageThree->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
                             <td><div class="arrow"></div></td>
-                            <td><img src="{{asset('storage/'.$schedule->imageFour->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
+                            <td><img src="{{asset(''.$schedule->imageFour->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
                             <td><div class="arrow"></div></td>
-                            <td><img src="{{asset('storage/'.$schedule->imageFive->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
+                            <td><img src="{{asset(''.$schedule->imageFive->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
                     </tr>
 
                     </div>

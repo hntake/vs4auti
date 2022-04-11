@@ -14,7 +14,7 @@
 
 <div class="container">
             <div class="card">
-            <td><img src="{{ asset('storage/' . $image->image) }}" alt="image" style="width: 100px; height: auto;"/><td>
+            <td><img src="{{ asset('' . $image->image) }}" alt="image" style="width: 100px; height: auto;"/><td>
 
                     <div class="delete_button">
                         <div  class="button"><a href="{{ route('delete_picture',['id'=> $image->id]) }}" >削除</a></div>

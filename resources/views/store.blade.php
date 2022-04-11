@@ -36,7 +36,7 @@
     <div class="store-list">
         @foreach($images as $image)
         <tr>
-            <td><img src="{{ asset('storage/' . $image->pic_name) }}" alt="image" style="width: 100px; height: auto;"/><td>
+            <td><img src="{{ asset('' . $image->pic_name) }}" alt="image" style="width: 100px; height: auto;"/><td>
         </tr>
         @endforeach
     </div>
