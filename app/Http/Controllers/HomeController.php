@@ -24,16 +24,17 @@ class HomeController extends Controller
      */
     public function index() {
 
-        //scheduleより最新のデータを取得
         $schedule = Schedule::orderBy('created_at', 'desc')->first();
+        
+        if(empty($schedule)) {
+            return view('create');
+        }
+        else{
 
-        return view('home',compact('schedule'));
+            //scheduleより最新のデータを取得
+
+            return view('home',compact('schedule'));
+        }
+
     }
-    /* public function index()
-    {
-        $schedules = Schedule::where('created_at', 'asc')->first();
-        return view('home', [
-            'schedules' => $schedules,
-        ]);
-    } */
 }

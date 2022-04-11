@@ -43,16 +43,16 @@
                         <input type="text" name="image0" id="image0" class="form-control" size="15" placeholder="正しい画像番号を入力">
                     </div>
                     <div class="col-sm-6">
-                        <input type="text" name="image1" id="image1" class="form-control" size="15" placeholder="正しい画像番号を入力してください">
+                        <input type="text" name="image1" id="image1" class="form-control" size="15" placeholder="正しい画像番号を入力">
                     </div>
                     <div class="col-sm-6">
-                        <input type="text" name="image2" id="image2" class="form-control" size="15" placeholder="正しい画像番号を入力してください">
+                        <input type="text" name="image2" id="image2" class="form-control" size="15" placeholder="正しい画像番号を入力">
                     </div>
                     <div class="col-sm-6">
-                        <input type="text" name="image3" id="image3" class="form-control"  size="15"placeholder="正しい画像番号を入力してください">
+                        <input type="text" name="image3" id="image3" class="form-control"  size="15"placeholder="正しい画像番号を入力">
                     </div>
                     <div class="col-sm-6">
-                        <input type="text" name="image4" id="image4" class="form-control" size="15" placeholder="正しい画像番号を入力してください">
+                        <input type="text" name="image4" id="image4" class="form-control" size="15" placeholder="正しい画像番号を入力">
                     </div>
             </div>
             <div class="form-group">
