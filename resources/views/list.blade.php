@@ -59,8 +59,8 @@
                                         <tr >
                                             <td >{{ $schedule->schedule_name }}</td>
                                             <td ><div  class="button"><a href="{{ route('schedule',['id'=>$schedule->id]) }}">表示</a></div></td>
-                                            <td ><div  class="button"><a href="{{ route('delete_list',['id'=> $schedule->id]) }}" >削除</a></div></td>
-
+<!--                                             <td ><div  class="button"><a href="{{ route('delete_list',['id'=> $schedule->id]) }}" >削除</a></div></td>
+ -->
                                         </tr>
                                     @endforeach
                         </tbody>

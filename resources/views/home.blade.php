@@ -24,6 +24,7 @@
                     </div>
                     @endif
                     <div class="card-header">
+                    @csrf <!-- CSRF保護 -->
                     <tr>
                             <td>{{ $schedule->schedule_name }}</td><br>
                             <td><img src="{{asset(''.$schedule->imageOne->pic_name)}}" alt="image" style="width: 150px; height: auto;"></td>
