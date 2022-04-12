@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Schedule;
+use Illuminate\Support\Facades\Auth; // Authクラスを使用
 
 class HomeController extends Controller
 {
@@ -25,7 +26,7 @@ class HomeController extends Controller
     public function index() {
 
         $schedule = Schedule::orderBy('created_at', 'desc')->first();
-        
+
         if(empty($schedule)) {
             return view('create');
         }
@@ -36,5 +37,10 @@ class HomeController extends Controller
             return view('home',compact('schedule'));
         }
 
+    }
+    public function logout(Request $request) // ログアウトの処理(post)
+    {
+        Auth::logout(); // ログアウト
+        return redirect()->route('home'); // 「ログアウト」ボタンを押すと、ログイン画面にリダイレクト
     }
 }

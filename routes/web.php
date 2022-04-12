@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ScheduleController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,5 +49,5 @@ Route::get('/search', [App\Http\Controllers\ScheduleController::class,'search'])
 //スケジュール検索結果表示
 Route::get('/search', [App\Http\Controllers\ExtraController::class,'search'])->name('search');
 
-
+Route::post('/logout', [App\Http\Controllers\HomeController::class,'logout'])->name('logout'); // ログアウト
 
