@@ -90,14 +90,18 @@ class ScheduleController extends Controller
     public function schedule(Request $request){
 
         $validate = $request -> validate([
-            'schedule_name' => 'required|max:25',
+            'schedule_name' => 'required|unique:schedules|max:25',
             'image0' => 'required|max:25',
             'image1' => 'required|max:25',
             'image2' => 'required|max:25',
             'image3' => 'required|max:25',
             'image4' => 'required|max:25',
+        ],
+        [
+            'schedule_name.unique' => '別のスケジュール名にしてください。',
 
-        ]);
+     ]);
+
 
         //schedulesテーブルへの受け渡し
         $schedule = new Schedule;

@@ -61,8 +61,17 @@
                             <i class="fa fa-plus"></i> 作成する
                         </button>
                     </div>
+                    @if ($errors->any())
+	    <div class="alert alert-danger">
+	        <ul>
+	            @foreach ($errors->all() as $error)
+	                <li>{{ $error }}</li>
+	            @endforeach
+	        </ul>
+	    </div>
+	@endif
             </div>
-    </form>
+                </form>
     <h2>保存画面一覧</h2>
     <div class="table_main">
         <div class="image-list">
