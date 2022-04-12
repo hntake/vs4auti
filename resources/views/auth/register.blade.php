@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('登録画面') }}</div>
+                <div class="card-header" style="font-weight:bold;margin-bottom: 20px;">{{ __('登録画面') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
