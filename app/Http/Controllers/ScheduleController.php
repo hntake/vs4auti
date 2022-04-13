@@ -33,7 +33,7 @@ class ScheduleController extends Controller
     {
         return view('search');
     }
-
+    
 
     /**
      * IDを選んだスケジュール表示
