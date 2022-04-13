@@ -14,11 +14,11 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\ScheduleController::class, 'create'])->name('home');
 
 Auth::routes();
 //ホーム画面表示
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\ScheduleController::class, 'create'])->name('home');
 
 //新規作成画面へ遷移
 Route::get('/create', [App\Http\Controllers\ScheduleController::class,'create'])->name('create');

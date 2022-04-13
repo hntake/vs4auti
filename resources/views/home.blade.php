@@ -18,11 +18,11 @@
             <div class="card">
 
                 <div class="card-body">
-                    @if (session('status'))
+                    <!-- @if (session('status'))
                     <div class="alert alert-success" role="alert">
                         {{ session('status') }}
                     </div>
-                    @endif
+                    @endif ログイン機能停止-->
                     <div class="card-header">
                     @csrf <!-- CSRF保護 -->
                     <tr>

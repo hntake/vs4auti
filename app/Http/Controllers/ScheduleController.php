@@ -114,9 +114,21 @@ class ScheduleController extends Controller
         $schedule->save();
 
 
-        $schedules = Schedule::all();
+      /*  $schedules = Schedule::all();
 
-        return view('list', ['schedules'=>$schedules]);
+        return view('list', ['schedules'=>$schedules]);*//*ホーム画面へ遷移へ変更の為**/
+        $schedule = Schedule::orderBy('created_at', 'desc')->first();
+
+        if(empty($schedule)) {
+            return view('create');
+        }
+        else{
+
+            //scheduleより最新のデータを取得
+
+            return view('home',compact('schedule'));
+        }
+
 
 
 

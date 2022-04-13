@@ -32,8 +32,8 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
+                    <!-- Authentication Links ログイン機能停止
                     <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
@@ -56,12 +56,12 @@
                             </li>
                             <div class="logout_buttom">
                                     <form action="{{ route('logout') }}" method="post">
-                                     @csrf <!-- CSRF保護 -->
-                                    <input type="submit" value="ログアウト"> <!-- ログアウトしてログイン画面に戻る -->
+                                     @csrf
+                                    <input type="submit" value="ログアウト">
                                     </form>
                             </div>
                         @endguest
-                    </ul>
+                    </ul>-->
                 </div>
             </div>
         </nav>
