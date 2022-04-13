@@ -31,9 +31,9 @@ class ScheduleController extends Controller
      */
     public function search(Request $request)
     {
-        return view('search');
+        return view('search',compact('schedule'));
     }
-    
+
 
     /**
      * IDを選んだスケジュール表示

@@ -45,10 +45,10 @@ Route::get('/sort', [App\Http\Controllers\ExtraController::class,'sort'])->name(
 //スケジュール表示画面
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class,'index'])->name('schedule');
 //スケジュール検索画面表示
-/* Route::get('/search', [App\Http\Controllers\ScheduleController::class,'search'])->name('search'); */
-//スケジュール検索結果表示
+Route::get('/search', [App\Http\Controllers\ScheduleController::class,'search'])->name('search');
+//検索
 Route::get('/search', [App\Http\Controllers\ExtraController::class,'search'])->name('search');
-
+//スケジュール検索結果ページへ遷移
 Route::get('/result', [App\Http\Controllers\ExtraController::class,'search'])->name('search');
 
 
