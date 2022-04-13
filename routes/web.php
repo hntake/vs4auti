@@ -43,7 +43,7 @@ Route::get('/list/{id}', [App\Http\Controllers\ScheduleController::class,'delete
 //並び替え
 Route::get('/sort', [App\Http\Controllers\ExtraController::class,'sort'])->name('sort');
 //スケジュール表示画面
-Route::get('/schedule', [App\Http\Controllers\ScheduleController::class,'index'])->name('schedule');
+Route::get('/schedule/{id}', [App\Http\Controllers\ScheduleController::class,'index'])->name('schedule');
 //スケジュール検索画面表示
 Route::get('/search', [App\Http\Controllers\ScheduleController::class,'search'])->name('search');
 //検索
