@@ -212,8 +212,8 @@ svg {
 }
 /*リスト画面*/
 .list{
-    padding: 0 35%;
-}
+/*     padding: 0 35%;
+ */}
 .button a{
     color: #1422d1;
     background-color: #2feb00;
@@ -292,5 +292,12 @@ table.result{
     .list{
         padding: 0;
         margin: 0 40;
+    }
+    .button a{
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: 50%;
+
     }
     }

@@ -52,7 +52,7 @@
                     </div>
                 </form>
 
-                <table class="table-hover">
+                <table class="result">
                     <tbody id="tbl">
                             <!--スケジュール一覧 -->
                                     @foreach ($schedules as $schedule)
