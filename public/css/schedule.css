@@ -300,4 +300,13 @@ table.result{
         width: 50%;
 
     }
+    @media (min-width: 960px) {
+        .button a{
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            width: 50%;
+
+        }
+    }
     }
